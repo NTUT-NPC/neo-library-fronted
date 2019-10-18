@@ -1,0 +1,10 @@
+{
+    "type": "Session",
+    "hideNavBottom": true,
+    "events": [
+        {
+            "type": "leave",
+            "name": "exit"
+        }
+    ]
+}

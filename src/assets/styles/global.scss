@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+    box-sizing: border-box;
+}
+
+.v-application {
+    font-family: "HanWangLiSuMedium" !important;
+}
+
+.font-size-5 {
+    font-size: 3rem !important;
+    line-height: 3.125rem !important;
+    letter-spacing: normal !important;
+}
+
+.font-size-4 {
+    font-size: 2.125rem !important;
+    line-height: 2.5rem !important;
+    letter-spacing: 0.0073529412em !important;
+}
+
+.font-size-3 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+    letter-spacing: normal !important;
+}
+
+.font-size-2 {
+    font-size: 1.25rem !important;
+    line-height: 2rem !important;
+    letter-spacing: 0.0125em !important;
+}
+
+.font-size-1 {
+    font-size: 1rem !important;
+    letter-spacing: 0.009375em !important;
+    line-height: 1.75rem !important;
+}
+
+.fill-parent {
+    width: 100%;
+    height: 100%;
+}
+
+.fit-background {
+    width: 75%;
+    max-height: 75%;
+}
+
+@keyframes flash {
+    from,
+    50%,
+    to {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+  }
+  
+  .flash {
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+  }
+
+  .flash-fast {
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+  }

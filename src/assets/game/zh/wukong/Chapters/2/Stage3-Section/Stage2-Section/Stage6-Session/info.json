@@ -1,0 +1,12 @@
+{
+    "type": "Session",
+    "events": [
+        {
+            "type": "leave",
+            "name": "gainReview",
+            "obj": [
+                10002
+            ]
+        }
+    ]
+}

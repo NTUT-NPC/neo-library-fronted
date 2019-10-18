@@ -1,0 +1,12 @@
+{
+    "type": "Session",
+    "events": [
+        {
+            "type": "leave",
+            "name": "gainItem",
+            "obj": [
+                10002
+            ]
+        }
+    ]
+}
