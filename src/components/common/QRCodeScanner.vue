@@ -1,11 +1,15 @@
 <template>
   <qrcode-stream @decode="$emit('decode', $event)" @init="onInit">
     <!-- <p class="error--text">{{ error }}</p> -->
-    <qrcode-capture
-      v-if="error"
-      @decode="$emit('decode', $event)"
-      @detect="$emit('detect', $event)"
-    ></qrcode-capture>
+    <label v-if="error">
+      <v-icon size="144">mdi-camera</v-icon>
+      <qrcode-capture
+        v-show="false"
+        :multiple="false"
+        @decode="$emit('decode', $event)"
+        @detect="$emit('detect', $event)"
+      ></qrcode-capture>
+    </label>
   </qrcode-stream>
 </template>
 
