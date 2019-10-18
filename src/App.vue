@@ -91,6 +91,7 @@ export default {
       this.showProgressDialog = true
       this.progressDialogText = 'Verifying...'
       const ladder = await api.getCurrentLadder()
+      console.log(ladder)
       this.isLadderCorrect = this.ladder === ladder
       this.showProgressDialog = false
       this.progressDialogText = ''

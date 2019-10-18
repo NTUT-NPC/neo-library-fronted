@@ -72,8 +72,8 @@ export default {
         prizeSpecialTitle: { en: 'Special Prize', zh: '特別獎' },
         prizeNormal: { en: 'Sticker + Folder', zh: '貼紙 + 文件夾' },
         prizeSpecial: { en: 'Power Bank', zh: '行動電源' },
-        exchanged: { en: 'Exchanged', zh: '兌換完畢' },
-        confirmExchanged: { en: 'Are you sure that you have exchanged the gift？', zh: '確定已經兌換完畢了嗎？' }
+        exchanged: { en: 'Recieved', zh: '兌換完畢' },
+        confirmExchanged: { en: 'Are you sure that you have recieved the gift？', zh: '確定已經兌換完畢了嗎？' }
       },
       presentType: null,
       isLoading: false,

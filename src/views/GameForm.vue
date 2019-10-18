@@ -37,6 +37,7 @@
             :rules="[() => validator.required(inputs[`satisfaction${i}`]) || text.required[language]]"
           ></Satisfaction>
         </template>
+        <v-text-field v-model="inputs.opinion" :label="text.opinion[language]" outlined></v-text-field>
       </v-form>
       <div>
         <v-btn
@@ -64,11 +65,11 @@ const inputMap = {
   'name': 'entry.342817724',
   'studentId': 'entry.61798308',
   'satisfaction1': 'entry.889901819',
-  'satisfaction2': 'entry.1267621837',
-  'satisfaction3': 'entry.469577955',
-  'satisfaction4': 'entry.181371955',
-  'satisfaction5': 'entry.2090826281',
-  'satisfaction6': 'entry.1412301068',
+  'satisfaction2': 'entry.469577955',
+  'satisfaction3': 'entry.181371955',
+  'satisfaction4': 'entry.2090826281',
+  'satisfaction5': 'entry.1412301068',
+  'opinion': '',
   'presentType': 'entry.428503296'
 }
 
@@ -87,6 +88,7 @@ export default {
     ]),
     classes () {
       return [
+        '其他單位',
         '工管一甲',
         '工管一乙',
         '工管一丙',
@@ -148,7 +150,7 @@ export default {
         satisfaction3: null,
         satisfaction4: null,
         satisfaction5: null,
-        satisfaction6: null,
+        opinion: '',
         presentType: null
       },
       text: {
@@ -157,11 +159,11 @@ export default {
         name: { en: 'Name', zh: '姓名' },
         studentId: { en: 'Student ID', zh: '學號' },
         satisfaction1: { en: 'Satisfaction with the design of the event (plot, puzzles, etc)', zh: '對於活動設計（劇情、謎題...等）的滿意度' },
-        satisfaction2: { en: 'Satisfaction with event gifts', zh: '對於活動禮品的滿意度' },
-        satisfaction3: { en: 'Satisfaction with visual design (characters, posters, color tones, overall design and packaging, etc)', zh: '對於視覺設計（角色、海報、色調、整體設計及包裝...等）的滿意度' },
-        satisfaction4: { en: 'Satisfaction with programming (web page navigation, smoothness, user interface, etc)', zh: '對於程式設計（網頁操作、流暢度、使用者介面...等）的滿意度' },
-        satisfaction5: { en: 'Satisfaction with explanations by game assistants', zh: '對於小天使說明講解等服務的滿意度？' },
-        satisfaction6: { en: 'The augmented reality problem-solving format of this activity helps you to understand the functions and services of the library', zh: '這次實境解謎活動的形式，有助於你認識圖書館的各項功能' },
+        satisfaction2: { en: 'Satisfaction with visual design (characters, posters, color tones, overall design and packaging, etc)', zh: '對於視覺設計（角色、海報、色調、整體設計及包裝...等）的滿意度' },
+        satisfaction3: { en: 'Satisfaction with programming (web page navigation, smoothness, user interface, etc)', zh: '對於程式設計（網頁操作、流暢度、使用者介面...等）的滿意度' },
+        satisfaction4: { en: 'Satisfaction with explanations by game assistants', zh: '對於小天使說明講解等服務的滿意度？' },
+        satisfaction5: { en: 'The augmented reality problem-solving format of this activity helps you to understand the functions and services of the library', zh: '這次實境解謎活動的形式，有助於你認識圖書館的各項功能' },
+        opinion: { en: 'Other Suggestion：', zh: '其他建議：' },
         leftText: { en: 'Totally Disagree', zh: '非常不認同' },
         rightText: { en: 'Totally Agree', zh: '非常認同' },
         required: { en: '*Required', zh: '*必填' },

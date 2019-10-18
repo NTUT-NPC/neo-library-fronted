@@ -1,7 +1,11 @@
 <template>
   <qrcode-stream @decode="$emit('decode', $event)" @init="onInit">
     <!-- <p class="error--text">{{ error }}</p> -->
-    <qrcode-capture v-if="error" @decode="$emit('decode', $event)"></qrcode-capture>
+    <qrcode-capture
+      v-if="error"
+      @decode="$emit('decode', $event)"
+      @detect="$emit('detect', $event)"
+    ></qrcode-capture>
   </qrcode-stream>
 </template>
 

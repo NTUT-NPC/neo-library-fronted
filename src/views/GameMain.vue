@@ -16,7 +16,7 @@
       v-show="!showGainItemDialog && !hideNavBottom"
       v-model="bottomNav"
       dark
-      absolute
+      fixed
       style="background-color: rgba(0, 0, 0, 0.7)"
     >
       <v-btn :class="{ 'flash-fast': hasNewItem }" @click="hasNewItem = false">

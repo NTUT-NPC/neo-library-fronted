@@ -18,7 +18,7 @@
             {
                 "id": 10001,
                 "text": {
-                    "en": "Spider Monster's working post",
+                    "en": "Spider Spirit's working post",
                     "zh": "蜘蛛精上班貼文"
                 }
             },
@@ -1462,8 +1462,8 @@
                 {
                     "id": 10004,
                     "title": {
-                        "en": "",
-                        "zh": "Chapter 2｜Bull Demon King 2"
+                        "en": "Chapter 2｜Bull Demon King 2",
+                        "zh": "第二章｜牛魔王 二"
                     },
                     "dialogue": [
                         {
@@ -2587,8 +2587,8 @@
                 {
                     "id": 10004,
                     "title": {
-                        "en": "",
-                        "zh": "Chapter 2｜Bull Demon King 2"
+                        "en": "Chapter 2｜Bull Demon King 2",
+                        "zh": "第二章｜牛魔王 二"
                     },
                     "dialogue": [
                         {
