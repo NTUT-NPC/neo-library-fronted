@@ -7,8 +7,9 @@ module.exports = {
   devServer: {
     // Enable dev server to accept the external requests.
     disableHostCheck: true
+    // public: 'https://a9bb53d0.ngrok.io'
   },
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/neo-library-frontend/'
+    ? '/'
     : '/'
 }

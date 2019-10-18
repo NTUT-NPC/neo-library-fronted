@@ -6,6 +6,8 @@ npm run build
 
 cd dist
 
+echo data > .gitignore
+
 git init
 git add -A
 git commit -m 'deploy'
