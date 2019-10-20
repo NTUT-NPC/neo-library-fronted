@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "build-game-data; vue-cli-service build",
-    "build-game-data": "node src/scripts/buildGameData.js",
+    "build": "npm run build-game-data; vue-cli-service build",
+    "build-game-data": "node src/scripts/gameData/buildGameData.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
