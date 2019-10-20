@@ -27,7 +27,7 @@ export default {
   data () {
     return {
       text: {
-        question: { en: 'Who is the kidnapper？', zh: '誰是犯人呢？' }
+        question: { en: 'Who did not tell the truth？', zh: '誰說的不是實話？' }
       }
     }
   },

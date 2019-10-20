@@ -21,7 +21,7 @@
       <v-card class="pa-3">
         <p class="font-size-4 text-center mb-5">{{ hintText[language] }}</p>
         <div class="font-size-2 text-center" style="overflow-x: auto;">
-          <table>
+          <table class="ma-auto">
             <tr
               v-for="(row, rowIndex) in currentHint"
               :key="`hint-row-${rowIndex}`"
