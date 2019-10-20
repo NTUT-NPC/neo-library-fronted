@@ -26,7 +26,7 @@
           outlined
           :rules="[() => validator.required(inputs.studentId) || text.required[language]]"
         ></v-text-field>
-        <template v-for="i in 6">
+        <template v-for="i in 5">
           <v-divider :key="`satisfaction-divider-${i}`"></v-divider>
           <Satisfaction
             v-model="inputs[`satisfaction${i}`]"
@@ -69,7 +69,7 @@ const inputMap = {
   'satisfaction3': 'entry.181371955',
   'satisfaction4': 'entry.2090826281',
   'satisfaction5': 'entry.1412301068',
-  'opinion': '',
+  'opinion': 'entry.404534765',
   'presentType': 'entry.428503296'
 }
 
