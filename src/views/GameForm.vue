@@ -183,7 +183,7 @@ export default {
     ]),
     async onSubmit () {
       if (!this.$refs.form.validate()) return
-      const url = 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSeX-UVrRjKShTl4MaDO_A7U5Qzy8BA4c5NCTavakjpN7b7fFg/formResponse'
+      const url = 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSeGhsjxLL2hTQw42Hzf0FusXnRNQpHBuBj4bacZiHw66yuwWw/formResponse'
       this.setShowProgressDialog(true)
       this.setProgressDialogText('Submitting...')
       this.inputs.presentType = 1 + await this.api.getPresentType()
