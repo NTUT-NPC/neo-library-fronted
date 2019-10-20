@@ -1030,11 +1030,11 @@
                                                 "pass": true,
                                                 "hints": [
                                                     {
-                                                        "en": "hint1",
+                                                        "en": "Draw the equation line segment on the transparent sheet",
                                                         "zh": "將方程式線段畫上透明片"
                                                     },
                                                     {
-                                                        "en": "hint2",
+                                                        "en": "Stack the transparent pieces of each part",
                                                         "zh": "將各組題目倆倆相疊"
                                                     }
                                                 ]
@@ -2012,11 +2012,11 @@
                                                 "pass": true,
                                                 "hints": [
                                                     {
-                                                        "en": "hint1",
+                                                        "en": "Draw the equation line segment on the transparent sheet",
                                                         "zh": "將方程式線段畫上透明片"
                                                     },
                                                     {
-                                                        "en": "hint2",
+                                                        "en": "Stack the transparent pieces of each part",
                                                         "zh": "將各組題目倆倆相疊"
                                                     }
                                                 ]
@@ -2901,11 +2901,11 @@
                                                 "pass": true,
                                                 "hints": [
                                                     {
-                                                        "en": "hint1",
+                                                        "en": "Draw the equation line segment on the transparent sheet",
                                                         "zh": "將方程式線段畫上透明片"
                                                     },
                                                     {
-                                                        "en": "hint2",
+                                                        "en": "Stack the transparent pieces of each part",
                                                         "zh": "將各組題目倆倆相疊"
                                                     }
                                                 ]
