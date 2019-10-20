@@ -61,7 +61,7 @@ export default {
         title: { en: 'Login', zh: '登入' },
         inputId: { en: 'Student／Tempcard ID', zh: '學號／臨時證證號' },
         inputPassword: { en: 'Password', zh: '密碼' },
-        inputPasswordHint: { en: 'NTUT Portal password or Tempcard ID last 4 characters', zh: '入口網密碼／臨時證證號 末四碼' },
+        inputPasswordHint: { en: 'NTUT Portal password or Tempcard ID last 4 characters', zh: '入口網密碼／臨時證證號末四碼' },
         submit: { en: 'Submit', zh: '送出' },
         required: { en: '*Required', zh: '*必填' },
         invalidIdPwd: { en: 'Invalid ID or Password', zh: '*錯誤的學號或臨時證證號或密碼' },
