@@ -4,11 +4,11 @@
     "pass": true,
     "hints": [
         {
-            "en": "hint1",
+            "en": "Draw the equations on the transparent sheets",
             "zh": "將方程式線段畫上透明片"
         },
         {
-            "en": "hint2",
+            "en": "Stack the transparent sheets up in pairs.",
             "zh": "將各組題目倆倆相疊"
         }
     ]
