@@ -87,7 +87,7 @@ export default {
     return {
       answer: '',
       text: {
-        question: { en: 'Please locate the official documents on the 3rd floor of Tripitaka Library and get the code by solving Puzzle 2 in your toolkit', zh: '請找到位於 3 樓藏經閣的公文，並使用實體道具包中的謎題二、附件 A 解鎖密碼，打開密碼鎖後將密碼輸入對話欄驗證' },
+        question: { en: 'Please locate the official documents on the 3rd floor of Tripitaka Library. Please refer to appendix A and solve the following puzzle!', zh: '請找到位於 3 樓藏經閣的公文，並使用實體道具包中的謎題二、附件 A 解鎖密碼，打開密碼鎖後將密碼輸入對話欄驗證' },
         error: { en: 'Wrong answer！', zh: '這不是正確密碼！' },
         check: { en: 'Check', zh: '任務檢查' },
         label: { en: 'Your answer', zh: '密碼' },
