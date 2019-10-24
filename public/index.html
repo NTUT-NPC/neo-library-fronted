@@ -8,6 +8,20 @@
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
   <link rel="stylesheet" href="<%= BASE_URL %>styles/HanWangLiSuMedium.css">
   <title>尋師旅圖 - Journey to the library</title>
+  <script>
+    if (window.history && window.history.pushState) {
+      history.pushState(null, null, document.URL)
+      window.addEventListener('popstate', function () {
+        history.pushState(null, null, document.URL)
+      })
+    }
+    window.addEventListener('beforeunload', function (e) {
+      const confirmationMessage = '確定要離開嗎？'
+      const event = (e || window.event)
+      event.returnValue = confirmationMessage
+      return confirmationMessage
+    })
+  </script>
 </head>
 
 <body>
